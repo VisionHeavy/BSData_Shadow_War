@@ -643,6 +643,24 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7bbf-db41-a787-fbf8" name="Ammunition" book="Shadow War: Armageddon" page="75" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2397-6496-5d81-dca2" name="New EntryLink" hidden="false" targetId="1b50-cb95-45f7-e1ed" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
@@ -887,6 +905,24 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cdb-8384-126d-f77d" type="max"/>
               </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d053-1675-52d3-4f05" name="Ammunition" book="Shadow War: Armageddon" page="75" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1eed-9a59-11ae-a464" name="New EntryLink" hidden="false" targetId="1b50-cb95-45f7-e1ed" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
