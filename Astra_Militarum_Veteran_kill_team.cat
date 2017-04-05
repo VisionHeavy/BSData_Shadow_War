@@ -511,7 +511,29 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="763f-7ad1-f3c8-169f" name="Laspistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4194-00d5-47fb-32a8" name="New InfoLink" hidden="false" targetId="7712-8c9d-f3fe-f0cf" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b6-a865-0840-c776" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d4-d734-d405-9ccc" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="bc29-6667-4810-da5a" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
@@ -525,7 +547,10 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb0-a1db-11d6-5b8d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="393c-a2cf-2c8f-c2df" type="min"/>
+          </constraints>
         </entryLink>
         <entryLink id="cf02-8dd2-de65-f3af" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
           <profiles/>
@@ -538,7 +563,10 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278c-f349-e7d1-f1ae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1146-e5d5-db99-adeb" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="8423-1885-15f4-f207" name="New EntryLink" hidden="false" targetId="ff76-2871-15ab-02cb" type="selectionEntry">
           <profiles/>
@@ -558,22 +586,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2dd-4846-62b3-ba05" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7523-3aef-c279-89c8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="90ba-77f4-c598-1ebd" name="New EntryLink" hidden="false" targetId="21e1-b9f5-5532-c231" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a30-61ac-9051-79c8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ea-2e2e-ed32-b17f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -614,7 +626,48 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="3458-6f5b-82d6-99d6" name="Bolt pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0705-8b78-3d7f-492a" name="New InfoLink" hidden="false" targetId="16cb-5f6f-6fe4-fa49" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="c89d-f512-52aa-0a93" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="7712-b601-7dc3-4d1a" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89d-f512-52aa-0a93" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7712-b601-7dc3-4d1a" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="69e2-c0a5-8927-ec16" name="Exchange bolt pistol for" hidden="false" collective="false">
           <profiles/>
@@ -718,38 +771,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="6ce6-fbe1-4adb-cfa3" name="New EntryLink" hidden="false" targetId="1b15-820c-5866-2373" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="65b6-e42b-9bf7-fa24" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="e0e2-632d-69fc-7ef6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="5a7a-14ce-022e-7a35" value="0.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="e0e2-632d-69fc-7ef6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69e2-c0a5-8927-ec16" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a7a-14ce-022e-7a35" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b6-e42b-9bf7-fa24" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="d800-2eca-cab4-0659" name="New EntryLink" hidden="false" targetId="b347-0d96-e0fa-f36f" type="selectionEntry">
           <profiles/>
           <rules/>
