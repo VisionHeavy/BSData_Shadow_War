@@ -1058,18 +1058,340 @@ subtract 2 from the random number of models that take part in the mission for a 
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a253-a1a2-f9c5-790c" name="New SelectionEntry" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
+    <selectionEntry id="a253-a1a2-f9c5-790c" name="Zoanthrope" book="Tyranid Warriors kill team" page="5" hidden="false" collective="false" categoryEntryId="0134-9140-fa41-adb1" type="model">
+      <profiles>
+        <profile id="ca50-b686-04a9-770b" name="Zoanthrope" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="4"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="4"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="2"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7105-2311-c2ae-2e62" name="Levitation" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Zoanthrope cannot hide, but it treats all terrain as open ground for the purposes of movement. However, it cannot end its move on impassable terrain.</description>
+        </rule>
+        <rule id="0778-aae5-88b7-26be" name="Bounty" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Zoanthrope is down or out of action at the end of a mission, the enemy kill team secures an additional promethium cache.</description>
+        </rule>
+        <rule id="22cd-549c-55e5-b0fe" name="hand-to-hand combat" book="Tyranid Warriors kill team" page="5" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In hand-to-hand combat, it counts as being equipped with a knife, but is always encumbered.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b752-36cc-c28d-42ee" name="New EntryLink" hidden="false" targetId="2c2d-83c2-b07a-6936" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b808-ea0b-8553-d24f" name="New EntryLink" hidden="false" targetId="c4b5-9fe9-a2aa-a19f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4e75-ff40-e062-2250" name="Tyranide Prime" hidden="false" collective="false" categoryEntryId="0134-9140-fa41-adb1" type="model">
+      <profiles>
+        <profile id="c6c2-8acf-c8a5-3c03" name="Tyranide Prime" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="6"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="5"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="5"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="3"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="5"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="10"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special Operatives"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d548-eaef-e87d-3d95" name="Apex Strain" book="Tyranid Warriors kill team" page="5" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All friendly fighters from a Tyranid Warrior kill team (but not special operatives) within 6&quot; of a Tyranid Prime use its Weapon Skill and Ballistic Skill rather than their own, unless theirs is higher.</description>
+        </rule>
+        <rule id="36d1-3327-24ba-4110" name="Combat Master" book="Tyranid Warriors kill team" page="5" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Tyranid Prime is attacked by multiple opponents in hand-to-hand combat, it uses their numbers against them. The enemy fighters don’t gain the multiple combat bonuses to their Attacks and Combat Score.</description>
+        </rule>
+        <rule id="df9f-a14e-2115-bc23" name="Premium Bounty" book="Tyranid Warriors kill team" page="5" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Tyranid Prime is down or out of action at the end of a mission, the enemy kill team secures D3 additional promethium caches.</description>
+        </rule>
+        <rule id="121c-4ce2-4f82-7dea" name="Killer Reuptation" book="Tyranid Warriors kill team" page="5" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Tyranid Prime causes terror.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d9be-3755-e213-01a4" name="Biomorphs" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f0b4-6940-47ac-d421" name="a" hidden="false" targetId="7b2d-6de4-05e1-fe36" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0008-1c78-6262-6de6" name="New EntryLink" hidden="false" targetId="7931-db4c-653c-8437" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e13b-7ea5-7d2f-c245" name="New EntryLink" hidden="false" targetId="fde8-face-af06-1be6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="64c5-dfdb-7af0-566b" name="New EntryLink" hidden="false" targetId="67cc-81b4-aafd-3987" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="Points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="eccc-10f8-c070-b421" name="Required Selection" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6029-5c76-6802-d385" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="944c-929e-f607-aa70" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="90d0-5b22-4fc6-cb0c" name="Basic Bio-weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b11-ac8a-26cf-d22b" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="a960-8dd7-5ab5-17d4" name="New EntryLink" hidden="false" targetId="c55f-fe93-2af5-897b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="7a82-2e9c-0179-8c92" name="New EntryLink" hidden="false" targetId="b302-c324-b9e5-ce74" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ec33-ac49-6db5-a6a5" name="Hand-to-Hand Bio-weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="1bf6-4a2f-ee2b-b077" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="9b58-4fb6-6810-35bb" name="New EntryLink" hidden="false" targetId="fa0f-804a-78e1-590c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="ef43-4f18-cd9f-7db7" name="New EntryLink" hidden="false" targetId="c669-dd62-d351-cc6a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="024f-e985-4ca7-a63d" name="New EntryLink" hidden="false" targetId="7813-20bf-c038-bf93" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="Points" value="0.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7c5a-0202-2bdb-fc23" name="New EntryLink" hidden="false" targetId="f124-3e29-15fe-b134" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac1-5d25-66aa-f5eb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b7e-db98-6029-f6d2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9251-ee61-c620-ca3b" name="New EntryLink" hidden="false" targetId="5041-0045-dd9c-6eee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="613d-fc2e-5cd2-70d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f79e-ae74-8490-4757" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
@@ -1439,6 +1761,56 @@ subtract 2 from the random number of models that take part in the mission for a 
       <costs>
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2c2d-83c2-b07a-6936" name="Warp Blast" book="Tyranid Warriors kill team" page="4" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="881d-4b50-9376-6823" name="Blast" book="Tyranid Warrior kill team" page="4" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Warp Blast’s burst attack disperses its energy over a wider area, and so uses the small blast template.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fb2b-8a77-bdb3-cad7" name="New InfoLink" hidden="false" targetId="a177-f261-4c56-7c54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ad2-1bbe-b505-084c" name="New InfoLink" hidden="false" targetId="b796-d829-45c8-696b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c4b5-9fe9-a2aa-a19f" name="Warp Field" book="Tyranid Warriors kill team" page="4" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9dd8-487c-77da-18d6" name="New InfoLink" hidden="false" targetId="bb39-9416-45a4-984d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
