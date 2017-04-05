@@ -1813,7 +1813,15 @@ subtract 2 from the random number of models that take part in the mission for a 
     </selectionEntry>
     <selectionEntry id="c4b5-9fe9-a2aa-a19f" name="Warp Field" book="Tyranid Warriors kill team" page="4" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="4b69-06a4-406b-2fb3" name="Warp Field (Psychic Ability)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Psychic Power - May need a Leadship check, waiting on FAQ</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="9dd8-487c-77da-18d6" name="New InfoLink" hidden="false" targetId="bb39-9416-45a4-984d" type="profile">
           <profiles/>
