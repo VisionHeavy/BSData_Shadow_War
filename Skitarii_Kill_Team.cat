@@ -810,6 +810,42 @@
           </modifiers>
           <constraints/>
         </entryLink>
+        <entryLink id="fbad-4f23-efa2-ef36" name="New EntryLink" hidden="false" targetId="2925-ae5c-dbe3-270f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1866-87ec-b51b-499d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e24-c07f-272e-6989" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6dd4-b882-4273-0868" name="New EntryLink" hidden="false" targetId="cfa6-e976-8dd8-c8fb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b86-f409-d632-ca2c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f8-d562-bf57-7c31" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="51dd-5507-aac8-c646" name="New EntryLink" hidden="false" targetId="21e1-b9f5-5532-c231" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e0-9c9b-3f20-e518" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f07-3c78-c0ad-173e" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="0.0"/>
@@ -1665,6 +1701,54 @@
       <costs>
         <cost name="pts" costTypeId="Points" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="2925-ae5c-dbe3-270f" name="Power Axe" book="Shadow War: Armageddon" page="55" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="de7a-c503-00df-5001" name="New InfoLink" hidden="false" targetId="3909-48d3-e6e0-07ec" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="88c5-79ae-3777-d989" name="New InfoLink" hidden="false" targetId="765f-883f-26a0-b8ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="cfa6-e976-8dd8-c8fb" name="Servo-arm" book="Shadow War: Armageddon" page="56" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="50fa-ea9a-64a1-c0d5" name="New InfoLink" hidden="false" targetId="c3ee-1366-3e6e-a25c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d16b-1926-8b73-f825" name="New InfoLink" hidden="false" targetId="0cca-270c-b710-4fc9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
