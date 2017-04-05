@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0156-386b-7ece-ac9c" name="Astra Militarum Veteran kill team" revision="1" battleScribeVersion="2.00" authorName="VisionHeav" authorContact="Twitter: @TheKarmaPanda" gameSystemId="d071-2e1e-3aec-44a1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="6d9a-5121-1e08-e14b" name="Voice of Command" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the start of their shooting phase, an Astra Militarum leader can choose to direct the shooting of nearby members of their kill team, rather than shooting the enemy themselves. The leader cannot shoot in the shooting phase, but all other members of thekill team that are within 6&quot; of the leader can re-roll To Hit rolls of 1.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles>
+    <profile id="f3bb-4527-2373-5302" name="Veteran Sergeant" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="4"/>
+        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="4"/>
+        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
+        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Kill Team Leader"/>
+      </characteristics>
+    </profile>
+    <profile id="ea92-9362-d7cc-6d18" name="Veteran Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="33"/>
+        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Trooper"/>
+      </characteristics>
+    </profile>
+    <profile id="5315-e96f-273c-35f7" name="Guardsman" book="Shadow War: Armageddon" page="74" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
+        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="New Recruit"/>
+      </characteristics>
+    </profile>
+    <profile id="0b36-49c0-bc23-de22" name="Special Weapons Operative" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+        <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+        <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="4"/>
+        <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+        <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+        <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+        <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+        <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+        <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="7"/>
+        <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Specialist"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
