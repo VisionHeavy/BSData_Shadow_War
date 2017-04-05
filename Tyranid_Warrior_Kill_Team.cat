@@ -1262,9 +1262,7 @@ subtract 2 from the random number of models that take part in the mission for a 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b11-ac8a-26cf-d22b" type="min"/>
-              </constraints>
+              <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
