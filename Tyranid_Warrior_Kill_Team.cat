@@ -1113,14 +1113,20 @@ subtract 2 from the random number of models that take part in the mission for a 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcc1-6076-0acf-a67a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa71-7c3b-2247-df42" type="min"/>
+          </constraints>
         </entryLink>
         <entryLink id="b808-ea0b-8553-d24f" name="New EntryLink" hidden="false" targetId="c4b5-9fe9-a2aa-a19f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e86a-926b-c968-1d31" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e215-35c1-920f-25f1" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -1775,6 +1781,13 @@ subtract 2 from the random number of models that take part in the mission for a 
           <infoLinks/>
           <modifiers/>
           <description>A Warp Blast’s burst attack disperses its energy over a wider area, and so uses the small blast template.</description>
+        </rule>
+        <rule id="8a5f-eb92-2fd5-79cb" name="Psychic power" book="Tyranid Warriors kill teams" page="4" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In the shooting phase, a Zoanthrope can attempt to unleash a Warp Blast. To do so, it must first pass a Leadership test. If the test is passed, pick one of the two profiles shown below and resolve the attack as if the Zoanthrope were firing a ranged weapon. If the test is failed, it cannot unleash a Warp Blast this turn. However, if you roll a double 6 for this test, the Zoanthrope also suffers a wound with no saving throws of any kind allowed.</description>
         </rule>
       </rules>
       <infoLinks>
