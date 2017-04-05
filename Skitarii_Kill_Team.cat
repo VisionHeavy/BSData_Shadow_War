@@ -748,109 +748,6 @@
         <cost name="pts" costTypeId="Points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6b7b-e5b2-e34f-0123" name="Tech-Priest Enginseer" hidden="false" collective="false" categoryEntryId="3bd7-39f1-4ae0-bddd" type="model">
-      <profiles>
-        <profile id="234e-af74-0cce-4030" name="Tech-Priest Enginseer" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
-            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
-            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
-            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
-            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
-            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
-            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
-            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
-            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
-            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special operatives"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="0c29-fc3a-2191-6d78" name="Soothe Machine Spirit" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>You can choose to re-roll any failed Ammo rolls for fighters within 6&quot; of a friendly Tech-Priest Enginseer.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="7c9b-750c-626e-9f69" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-        </entryLink>
-        <entryLink id="a8ac-9410-a2c2-e14a" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-        </entryLink>
-        <entryLink id="fbad-4f23-efa2-ef36" name="New EntryLink" hidden="false" targetId="2925-ae5c-dbe3-270f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1866-87ec-b51b-499d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e24-c07f-272e-6989" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6dd4-b882-4273-0868" name="New EntryLink" hidden="false" targetId="cfa6-e976-8dd8-c8fb" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b86-f409-d632-ca2c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3f8-d562-bf57-7c31" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="51dd-5507-aac8-c646" name="New EntryLink" hidden="false" targetId="21e1-b9f5-5532-c231" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="Points" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38e0-9c9b-3f20-e518" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f07-3c78-c0ad-173e" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="Points" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="788b-fa54-5545-4d12" name="Sicarian Ruststalker" hidden="false" collective="false" categoryEntryId="3bd7-39f1-4ae0-bddd" type="model">
       <profiles>
         <profile id="1cab-6778-5e41-10e8" name="Sicarian Ruststalker" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
@@ -1081,6 +978,121 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ac-57d4-ef92-355d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1562-1116-f9b9-5e7a" name="Tech-Priest Enginseer" hidden="false" collective="false" categoryEntryId="5901-345e-04ba-e937" type="model">
+      <profiles>
+        <profile id="9777-a0df-2c6a-f5f1" name="Tech-Priest Enginseer" hidden="false" profileTypeId="81a8-cb4f-563f-f9d2" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="f563-8d05-302d-5a08" value="4&quot;"/>
+            <characteristic name="WS" characteristicTypeId="1f26-cb1b-dfd2-7424" value="3"/>
+            <characteristic name="BS" characteristicTypeId="66d4-4044-cd25-1660" value="3"/>
+            <characteristic name="S" characteristicTypeId="8858-06ca-0be3-cd2a" value="3"/>
+            <characteristic name="T" characteristicTypeId="54ac-d60c-15e6-3bf5" value="3"/>
+            <characteristic name="W" characteristicTypeId="1651-d65d-aa0b-e006" value="1"/>
+            <characteristic name="I" characteristicTypeId="0098-42da-9043-eaf9" value="3"/>
+            <characteristic name="A" characteristicTypeId="c64c-c2a1-b9aa-3645" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="ef68-fc9b-49a6-b5b0" value="8"/>
+            <characteristic name="Type" characteristicTypeId="a2f3-b176-60da-fcde" value="Special operatives"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="671d-789c-ab74-3b80" name="Soothe Machine Spirit" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You can choose to re-roll any failed Ammo rolls for fighters within 6&quot; of a friendly Tech-Priest Enginseer.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="2c58-4e97-3ca5-ecc2" name="Laspistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b9ff-7fcf-7d96-23ec" name="New InfoLink" hidden="false" targetId="7712-8c9d-f3fe-f0cf" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbdf-f16b-c303-fa69" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c82-70a2-b797-ce24" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="626d-621c-17b3-6a6f" name="New EntryLink" hidden="false" targetId="43ce-dc52-b26b-97a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1876-9a90-8e49-c232" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5e-1f81-3ebb-5577" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5981-506c-8b8d-6323" name="New EntryLink" hidden="false" targetId="b8ea-51ad-363d-9018" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="Points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd88-5b3a-391b-a6b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4369-a9e9-e99a-3b85" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8d96-383d-d3a2-d9e5" name="New EntryLink" hidden="false" targetId="cfa6-e976-8dd8-c8fb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef99-0624-69db-a78f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e932-7ba2-cff0-54d0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5a69-e4c4-8270-e9e2" name="New EntryLink" hidden="false" targetId="2925-ae5c-dbe3-270f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b343-cc71-8b7e-14f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0208-0b8b-38d8-b207" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1724,7 +1736,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cfa6-e976-8dd8-c8fb" name="Servo-arm" book="Shadow War: Armageddon" page="56" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1748,7 +1762,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="Points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
