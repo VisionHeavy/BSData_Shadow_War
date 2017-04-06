@@ -2694,7 +2694,7 @@ A target suffering their final wound from this weapon does not roll on the stand
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A red-dot sight can be fitted to either a pistol, back weapon or special weapon. A fighter using a weapon with a red-dot sight receives a +1 to hit modifier.  A fighter hit by a weapon with a red-dot sight stands a chance of spotting the red dot and ducking aside. If the shooter is within a 90° arc to the front of the target, then the target receives a 6+ invulnerable save. A fighter who is pinned or down does not receive this bonus. If the target is a sentry and spots teh dot by making their invulnerable save, then the alarm will also be raised. "/>
+        <characteristic name="Description" characteristicTypeId="b290-69be-8878-8eff" value="A red-dot sight can be fitted to either a pistol, basic weapon or special weapon. A fighter using a weapon with a red-dot sight receives a +1 to hit modifier.  A fighter hit by a weapon with a red-dot sight stands a chance of spotting the red dot and ducking aside. If the shooter is within a 90° arc to the front of the target, then the target receives a 6+ invulnerable save. A fighter who is pinned or down does not receive this bonus. If the target is a sentry and spots teh dot by making their invulnerable save, then the alarm will also be raised. "/>
       </characteristics>
     </profile>
     <profile id="c951-55b5-23e6-32f2" name="Telescopic sight" hidden="false" profileTypeId="a0e5-b3f6-ed97-d6a7" profileTypeName="Wargear">
