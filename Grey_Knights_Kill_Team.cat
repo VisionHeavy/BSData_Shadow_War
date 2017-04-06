@@ -15,29 +15,97 @@ test to recover early from pinning, even if there is no friendly fighter within 
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <forceEntries/>
-  <selectionEntries>
-    <selectionEntry id="05e2-8749-0f35-7092" name="ddddd" hidden="false" collective="false" categoryEntryId="d857-ffdb-a6af-c1d3" type="upgrade">
+  <forceEntries>
+    <forceEntry id="b504-a7a7-10a6-7fc8" name="Grey Knights Kill Team" hidden="false">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="7652-f61a-6fd6-491c" name="Grey Knights Kill Team" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>– Grey Knights kill teams do not have
+New Recruits.
+– In any missions that allow Ork Boyz
+kill teams to field additional models
+(such as the Raid or Hit and Run),
+subtract 2 from the random number
+of models that take part in the mission
+for a Grey Knights kill team.
+– Zoanthropes suffer a -1 To Hit
+penalty when attempting to hit a Grey
+Knights fighter with their Warp Blast
+psychic ability.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="853c-de7a-8229-174c" name="New EntryLink" hidden="false" targetId="7616-2383-15dd-d59e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="748d-588a-c364-22fb" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577c-9e6e-a625-d2d8" type="min"/>
+      </constraints>
+      <categoryEntries>
+        <categoryEntry id="e8f7-69a0-dfe7-2675" name="Kill Team Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fef-729b-baf7-ab43" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8647-52f7-b6f5-7f17" type="min"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="dfd8-af39-8374-d822" name="Tooper" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </entryLink>
-      </entryLinks>
-      <costs/>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
+        </categoryEntry>
+        <categoryEntry id="940a-dcf5-0847-1df7" name="Specialist" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c349-bcdd-f5f3-8296" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="2115-96be-dcf7-22a0" name="Special Operatives" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+      </categoryEntries>
+      <forceEntries/>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="e1c5-ea1e-28f0-2180" name="New EntryLink" hidden="false" targetId="fe33-fe26-2f9b-a64e" type="selectionEntry" categoryEntryId="e8f7-69a0-dfe7-2675">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="70e3-bdc8-58cf-af08" name="New EntryLink" hidden="false" targetId="aeb7-b99b-b132-ac8e" type="selectionEntry" categoryEntryId="940a-dcf5-0847-1df7">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="96b0-da6e-4932-b520" name="New EntryLink" hidden="false" targetId="a217-d435-7259-bbb3" type="selectionEntry" categoryEntryId="dfd8-af39-8374-d822">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="fe33-fe26-2f9b-a64e" name="Justicar" book="Grey Kights Kill Team" page="1" hidden="false" collective="false" type="model">
       <profiles>
@@ -66,7 +134,69 @@ test to recover early from pinning, even if there is no friendly fighter within 
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9c53-7c45-d293-e8c9" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1847-7fbb-3faf-f811" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6df-15a9-db41-8bc3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5be1-b613-48a4-15d1" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0468-4066-7a08-24a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f3-2159-0ec9-a650" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dba6-306e-791d-acba" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6442-a4d3-8002-7ca8" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9a50-b99d-5353-252f" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="04b8-dfdc-6539-082b" name="New EntryLink" hidden="false" targetId="234f-4fee-36e4-9187" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b16-ef6e-4c30-3dd3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="001e-2eef-2624-4213" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f8a4-ee8c-26b3-a2be" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc19-e6b1-e2dd-eada" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eae-8584-fb60-9b85" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="250.0"/>
       </costs>
@@ -468,7 +598,59 @@ test to recover early from pinning, even if there is no friendly fighter within 
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="7feb-6183-bb03-aeff" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1a-43c4-5921-d194" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d2-ee6f-1f71-b639" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5111-536b-5f4d-8455" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a205-cffd-4de0-e3a8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b4f-8f06-b472-a345" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5f64-e7bf-b6f3-3e30" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b3c0-b146-81be-c268" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="03d2-54bc-e8e2-d3b3" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8cca-ff96-8a07-89c6" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f9-a8b2-d019-8df8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407d-5725-8bef-3505" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="175.0"/>
       </costs>
@@ -500,7 +682,95 @@ test to recover early from pinning, even if there is no friendly fighter within 
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ba80-39c4-da8a-639d" name="New EntryLink" hidden="false" targetId="3927-df5b-7cd5-cd4b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d71a-e224-8479-3384" name="New EntryLink" hidden="false" targetId="8a3b-1d62-bcd8-e545" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="b191-b380-0f45-00e2" name="New EntryLink" hidden="false" targetId="b884-cd14-997b-c305" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3f6f-7770-4a1b-0f43" name="New EntryLink" hidden="false" targetId="7a14-e87c-9eae-b7a0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="7a43-1590-d526-9ae2" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ead-be29-b7e7-f312" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ead-be29-b7e7-f312" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="506e-ee01-9f99-1afd" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ead-be29-b7e7-f312" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ead-be29-b7e7-f312" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a43-1590-d526-9ae2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506e-ee01-9f99-1afd" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="55ad-a017-9717-5fc6" name="New EntryLink" hidden="false" targetId="68f4-fc70-d991-d2d1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c89b-6e72-710a-cda0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8e7-f9f5-99a2-ca85" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5ead-be29-b7e7-f312" name="New EntryLink" hidden="false" targetId="2ba6-6fd0-2064-2af4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5f2c-b3e0-4515-1984" name="New EntryLink" hidden="false" targetId="9b7f-daf0-3d23-43bc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="503f-555d-0bd3-f2b4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c1-8973-3c18-04e0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5525-1721-ac2f-03f4" name="New EntryLink" hidden="false" targetId="bbcf-a297-9361-dfa3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="622e-6031-a3b7-c3c4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3aa-8b11-ca90-def9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="Points" value="200.0"/>
       </costs>
@@ -946,7 +1216,9 @@ additional promethium cache.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256b-3619-7d95-4f35" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -955,35 +1227,45 @@ additional promethium cache.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d09d-b17b-ca33-cce2" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="4c3b-0934-ba4e-c0ec" name="New EntryLink" hidden="false" targetId="013e-d73d-0cf7-f3f1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3919-3599-3b60-f367" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="b8ca-2a20-de79-c8dd" name="New EntryLink" hidden="false" targetId="3001-9c2f-05e6-0728" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d166-5fa6-805e-e177" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="50c6-d86d-0971-b70a" name="New EntryLink" hidden="false" targetId="d6f3-5e32-53a5-29e9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6e0-c3a8-77ea-1761" type="max"/>
+          </constraints>
         </entryLink>
         <entryLink id="74b2-63d5-6aa8-3374" name="New EntryLink" hidden="false" targetId="60dc-2c32-da31-77cb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6295-65d6-1c89-9de6" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
